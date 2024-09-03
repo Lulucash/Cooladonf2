@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooladonf - Cultivez vos rêves</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            background-color: #FF9800;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .banner {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .banner h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .banner p {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .services,
+        .mission,
+        .team,
+        .activities,
+        .testimonials,
+        .footer {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services h2,
+        .mission h2,
+        .team h2,
+        .activities h2,
+        .testimonials h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .services .service-item,
+        .team .team-member,
+        .activities .activity-item {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            vertical-align: top;
+        }
+
+        .services .service-item img,
+        .team .team-member img,
+        .activities .activity-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+        }
+
+        .footer a {
+            color: #FF9800;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/50" alt="Logo Cooladonf">
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#mission">Notre Mission</a></li>
+                <li><a href="#team">Les Coolos</a></li>
+                <li><a href="#activities">Activités</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta-button">Rejoignez-nous</a>
+    </header>
+
+    <section class="banner">
+        <h1>Cultivez votre indépendance, une pâte à la fois</h1>
+        <p>Découvrez comment nos micro-potagers peuvent transformer votre quotidien étudiant.</p>
+        <a href="#services" class="cta-button">Commencez Maintenant</a>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Nos Services</h2>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/100" alt="Micro-potagers">
+            <h3>Micro-potagers connectés</h3>
+            <p>Faites pousser vos propres pâtes dans n'importe quel espace.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/100" alt="Vêtements">
+            <h3>Vêtements Ultra Cool</h3>
+            <p>Des vêtements fabriqués à partir de t-shirts de sans-abris lavés et recyclés.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/100" alt="Téléphones">
+            <h3>Téléphones Eco-responsables</h3>
+            <p>Des téléphones sans électricité, composés uniquement de deux gobelets en plastique et d'une corde.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/100" alt="Needisme">
+            <h3>Conseil Needisme</h3>
+            <p>Un numéro spécial pour conseiller les gens souffrant de néodisme.</p>
+        </div>
+        <div class="service-item">
+            <img src="https://via.placeholder.com/100" alt="Petit Rond Sous L’Épaule">
+            <h3>Petit Rond Sous L’Épaule</h3>
+            <p>Sessions régulières de 'petit rond sous l’épaule' dans des bars avec des inconnus.</p>
+        </div>
+    </section>
+
+    <section id="mission" class="mission">
+        <h2>Pourquoi Cooladonf ?</h2>
+        <p>Chez Cooladonf, nous croyons en l'autonomie alimentaire, la durabilité, et le fun. 2% de nos bénéfices sont en théorie et selon le besoin en cash du PDG, reversés à des associations qui luttent contre des trucs pas cool.</p>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>Témoignages</h2>
+        <blockquote>
+            "Cooladonf a transformé ma vie, je fais maintenant pousser mes propres pâtes et je suis devenu un pro du petit rond sous l’épaule !"
+        </blockquote>
+    </section>
+
+    <section id="team" class="team">
+        <h2>La Tribu Cooladonf</h2>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Lucas">
+            <h3>Lucas</h3>
+            <p>Fondateur, niveau 80 avec son Chevalier de la Mort, il adore se déplacer en longboard.</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Jeremy">
+            <h3>Jeremy "Burning Tree"</h3>
+            <p>Rider cool d'Annecy, indépendant tant que son chat n'est pas dans les parages.</p>
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <h2>Nos Activités Ultra Cool</h2>
+        <div class="activity-item">
+            <img src="https://via.placeholder.com/100" alt="Between Work">
+            <h3>Between Work</h3>
+            <p>Sessions de pause comme des afterworks, mais à 10h et 16h.</p>
+        </div>
+        <div class="activity-item">
+            <img src="https://via.placeholder.com/100" alt="Ronds de Fumée">
+            <h3>Ronds de Fumée</h3>
+            <p>Formations pour faire des ronds de fumée avec la vapoteuse.</p>
+        </div>
+        <div class="activity-item">
+            <img src="https://via.placeholder.com/100" alt="Weedinaire">
+            <h3>Weedinaire</h3>
+            <p>Webinaires éco-responsables, payés en fonction de la coolitude.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><a href="#contact">Contact</a> | Mentions légales | Politique de confidentialité</p>
+        <p>Cooladonf - Cultive tes rêves, une pousse à la fois.</p>
+    </footer>
+
+</body>
+
+</html>
